@@ -13,6 +13,9 @@
 		CD8447161CDF916800DF9843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8447141CDF916800DF9843 /* Main.storyboard */; };
 		CD8447181CDF916800DF9843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8447171CDF916800DF9843 /* Assets.xcassets */; };
 		CD84471B1CDF916800DF9843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8447191CDF916800DF9843 /* LaunchScreen.storyboard */; };
+		CDC7D8701CE01D0A0024C69B /* tableheader.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC7D86F1CE01D0A0024C69B /* tableheader.png */; };
+		CDC7D8721CE01D0C0024C69B /* ic_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC7D8711CE01D0C0024C69B /* ic_highlight.png */; };
+		CDC7D8741CE01D120024C69B /* ic_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC7D8731CE01D120024C69B /* ic_gray.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		CD8447171CDF916800DF9843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD84471A1CDF916800DF9843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD84471C1CDF916800DF9843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC7D86F1CE01D0A0024C69B /* tableheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableheader.png; sourceTree = "<group>"; };
+		CDC7D8711CE01D0C0024C69B /* ic_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_highlight.png; sourceTree = "<group>"; };
+		CDC7D8731CE01D120024C69B /* ic_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_gray.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 		CD84470B1CDF916700DF9843 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDC7D8731CE01D120024C69B /* ic_gray.png */,
+				CDC7D8711CE01D0C0024C69B /* ic_highlight.png */,
+				CDC7D86F1CE01D0A0024C69B /* tableheader.png */,
 				CD84470C1CDF916700DF9843 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,7 +147,10 @@
 			files = (
 				CD84471B1CDF916800DF9843 /* LaunchScreen.storyboard in Resources */,
 				CD8447181CDF916800DF9843 /* Assets.xcassets in Resources */,
+				CDC7D8741CE01D120024C69B /* ic_gray.png in Resources */,
 				CD8447161CDF916800DF9843 /* Main.storyboard in Resources */,
+				CDC7D8721CE01D0C0024C69B /* ic_highlight.png in Resources */,
+				CDC7D8701CE01D0A0024C69B /* tableheader.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				CD8447211CDF916800DF9843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
